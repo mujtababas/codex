@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="website icon" type="png" href="img/main.png">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Conversations</h2>
+            <button class="new-chat-btn">+ New Chat</button>
+            <ul class="chat-list">
+                <li>General Assistant</li>
+                <li>Code Helper</li>
+                <li>Image Analysis</li>
+            </ul>
+        </div>
+        <div class="main-chat">
+            <div class="header">
+                <h2>M.J Codex Advanced AI Assistant</h2>
+                <div class="options">
+                    <button>English</button>
+                    <button>Voice</button>
+                    <button>Image</button>
+                    <button>File</button>
+                    <button>Theme</button>
+                    <button>Settings</button>
+                    <button>Help</button>
+                </div>
+            </div>
+            <div class="chat-box" id="chatbox">
+                <div class="ai">
+                    Hello! I'm your advanced AI assistant. I can help you with:
+                    <ul>
+                        <li>Voice conversations</li>
+                        <li>Multiple languages</li>
+                        <li>Image analysis</li>
+                        <li>Document processing</li>
+                        <li>Code generation and explanation</li>
+                        <li>Task automation</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="userInput" placeholder="Type your message here...">
+                <button class="send-btn" id="sendBtn"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/highlight.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
